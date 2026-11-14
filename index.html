@@ -59,6 +59,27 @@ footer h5{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#B8
 .backtag{position:absolute;right:12px;top:12px;background:#F3EEE6;padding:5px 9px;margin:0}
 .artcard figcaption{font-size:22px}
 .shop{height:1038.3125px} /* keeps sub-pixel offset of later sections identical to v1 */
+.podsec{background:#4B1E3F;color:#F3EEE6}
+.podsec .lbl{border-top-color:#B8893B;color:#F3EEE6}
+.podsec h3{font-family:'Playfair Display',serif;font-weight:600;font-size:68px;line-height:.98;letter-spacing:-.02em;color:#F3EEE6}
+.podsec .tags{margin-top:26px;max-width:640px}
+.podsec .tags p{font-family:'Playfair Display',serif;font-style:italic;font-weight:500;font-size:26px;line-height:1.3;color:#B8893B}
+.podsec .tags p+p{margin-top:8px}
+.podsec .rule{height:1px;background:#B8893B;border:0;margin:32px 0 40px}
+.podlay{display:grid;grid-template-columns:1.15fr .85fr;gap:72px;align-items:start}
+.podsec .blurb{font-family:'Cormorant Garamond',serif;font-size:25px;line-height:1.5;max-width:640px;color:#F3EEE6}
+.podlisten{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.podlisten a{display:inline-block;background:transparent;color:#B8893B;border:1px solid #B8893B;padding:16px 18px;font-family:Manrope,sans-serif;font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;text-decoration:none}
+.podlisten a:hover{background:#B8893B;color:#1C1712}
+.podprompt{margin-top:28px;font-family:'Playfair Display',serif;font-style:italic;font-size:28px;line-height:1.3;max-width:18em}
+.podprompt a{color:#B8893B;text-decoration:none;border-bottom:1px solid #B8893B}
+.podcard{border:1px solid #B8893B;background:#F3EEE6;padding:16px 16px 14px}
+.podcard .ep{font-family:Manrope,sans-serif;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#B8893B;font-weight:700;margin-bottom:12px}
+.podcard iframe{display:block;width:100%;height:352px;border:0}
+.podlisten a:focus-visible,.podprompt a:focus-visible,.soc a:focus-visible,.top nav a:focus-visible{outline:2px solid #B8893B;outline-offset:3px}
+.soc{margin-top:14px;display:flex;flex-direction:column;font-size:13px;line-height:1.7;letter-spacing:.04em}
+.soc a{color:#1C1712;text-decoration:none}
+.soc a:hover{color:#4B1E3F}
 @media (max-width: 780px) {
   body { width: 100%; }
   .top { flex-wrap: wrap; row-gap: 12px; padding: 16px 20px; }
@@ -89,6 +110,12 @@ footer h5{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#B8
   .ev + .ev { border-left: none; border-top: 1px solid #1C1712; }
   .ev h4 { font-size: 40px; }
   .ev p { font-size: 22px; }
+  .podsec h3 { font-size: 40px; }
+  .podsec .tags p { font-size: 22px; }
+  .podsec .blurb { font-size: 22px; }
+  .podlay { grid-template-columns: 1fr; gap: 32px; }
+  .podprompt { font-size: 24px; }
+  .podlisten a { letter-spacing: .12em; padding: 14px 14px; }
   .circle { padding: 72px 22px; }
   .circle h3 { font-size: 48px; }
   .circle p { font-size: 22px; }
@@ -98,7 +125,7 @@ footer h5{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#B8
   .legal { flex-direction: column; align-items: flex-start; gap: 8px; }
 }
 </style></head><body>
-<div class="top"><span>For women, by a woman</span><nav><a>Her Story</a><a>The Shirts</a><a>Gatherings</a><a>Podcast</a><a>Join the Circle</a></nav></div>
+<div class="top"><span>For women, by a woman</span><nav><a>Her Story</a><a>The Shirts</a><a>Gatherings</a><a href="#podcast">Podcast</a><a>Join the Circle</a></nav></div>
 <header class="mast"><h1>Writing Her Next <i>Chapter</i></h1><div class="issue"><span>Volume One</span><span>Rooted in Black womanhood &middot; Open to every woman</span><span>The Beginning Issue</span></div></header>
 <div class="hero"><div class="ph"><img src="assets/amanda-blazer-raw.jpg"><div class="tag">Amanda Johnson, Founder</div></div>
 <div class="copy"><div><div class="kicker">The cover story</div><h2>Come home to yourself, <em>then keep going.</em></h2>
@@ -110,11 +137,30 @@ footer h5{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#B8
 <div class="side"><h4>What this is</h4>A women-only community built for healing and growth. It starts with intimate gatherings and grows into a conference where every woman has a seat at the table.</div></div></section>
 <section class="shop"><div class="lbl"><b>02</b>The Shirts</div><div class="shophead"><h3>Wear the <i>chapter</i><br>you&rsquo;re in.</h3><div class="soon">Coming soon to the shop</div></div><div class="grid art"><figure class="card artcard"><div class="artimg"><img src="assets/shirts/still-becoming-front.jpg" alt="Still Becoming shirt on plum"></div><figcaption><span>No. 01 &middot; Front print</span>Still Becoming</figcaption></figure><figure class="card artcard"><div class="artimg"><img src="assets/shirts/her-next-chapter-front.jpg" alt="Her Next Chapter shirt on plum"></div><figcaption><span>No. 02 &middot; Front print</span>Her Next Chapter</figcaption></figure><figure class="card artcard"><div class="artimg"><img src="assets/shirts/turning-the-page-front.jpg" alt="Turning the Page shirt on plum"></div><figcaption><span>No. 03 &middot; Front print</span>Turning the Page</figcaption></figure><figure class="card artcard"><div class="artimg"><img src="assets/shirts/shes-writing-it-now-back.jpg" alt="She&rsquo;s Writing It Now shirt on plum"><span class="backtag">Back</span></div><figcaption class="withinset"><div><span>No. 04 &middot; Chest logo + back</span>She&rsquo;s Writing It Now</div><div class="inset"><img src="assets/shirts/chest-patch-front.jpg" alt="Front chest patch"><span>Front</span></div></figcaption></figure></div>
 <p class="note">Given away first at our gatherings. Coming soon to the shop for everyone else.</p></section>
-<section><div class="lbl"><b>03</b>Gatherings</div><div class="events">
+<section class="podsec" id="podcast"><div class="lbl"><b>03</b>Podcast</div>
+<h3>What We Build From Here</h3>
+<div class="tags"><p>Honest conversations about life, faith, and what comes next.</p><p>Real talk about healing, growth, and building again with God in it.</p></div>
+<hr class="rule">
+<div class="podlay"><div>
+<p class="blurb">This is where I get honest about the stuff we usually keep quiet: change, relationships, faith, healing, and starting over when the plan didn&rsquo;t go the way we thought. No polished answers. Just real conversation, a little humor, and a lot of grace. Pull up a seat.</p>
+<div class="podlisten">
+<a href="https://podcasts.apple.com/us/podcast/what-we-build-from-here/id6823472020" target="_blank" rel="noopener noreferrer">Apple Podcasts</a>
+<a href="https://open.spotify.com/show/08stsjcVU8fPYthofhdLjp" target="_blank" rel="noopener noreferrer">Spotify</a>
+<a href="https://www.youtube.com/@WHATWEBUILDFROMHERE" target="_blank" rel="noopener noreferrer">YouTube</a>
+<a href="https://www.instagram.com/whatwebuildfromhere" target="_blank" rel="noopener noreferrer">Instagram</a>
+<a href="https://www.facebook.com/profile.php?id=61595543308341" target="_blank" rel="noopener noreferrer">Facebook</a>
+</div>
+<p class="podprompt"><a href="https://www.instagram.com/whatwebuildfromhere" target="_blank" rel="noopener noreferrer">What&rsquo;s one thing you&rsquo;re building from here?</a></p>
+</div>
+<div class="podcard"><div class="ep">Latest episode</div>
+<iframe src="https://open.spotify.com/embed/show/08stsjcVU8fPYthofhdLjp" title="What We Build From Here on Spotify" width="100%" height="352" style="width:100%;height:352px;border:0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div></div></section>
+<section><div class="lbl"><b>04</b>Gatherings</div><div class="events">
 <div class="ev"><div><div class="k">Invite-only &middot; Small circle</div><h4>The Girls&rsquo; Sleepover</h4><p>An intimate pajama night for a hand-picked group of women. We&rsquo;ll journal, build vision boards, write letters to our future selves, and share a guided healing conversation.</p></div><a class="btn">Request an invitation</a></div>
 <div class="ev"><div><div class="k">Coming soon</div><h4>Her Next Chapter Conference</h4><p>The sleepover grows up. A full gathering of women ready to heal out loud, dream bigger, and leave with a plan for what comes next. Details soon.</p></div><a class="btn">Get first word</a></div></div></section>
 <div class="circle"><div class="pat"></div><h3>Join the <i>circle.</i></h3><p>Letters, first looks at the shirts, and the first invitations to what we&rsquo;re building, straight to your inbox.</p><div class="form"><span>Your email address</span><b>Count me in</b></div></div>
 <footer><div><div class="logo">Her Next<br>Chapter</div><p style="margin-top:14px">A women-only community for healing, growth, and new beginnings.</p></div>
 <div><h5>Explore</h5>Her Story<br>The Shirts<br>Gatherings<br>Join the Circle</div><div><h5>Connect</h5>Instagram<br>Contact<br>Partnerships</div>
-<div><h5>Listen</h5><div class="pod"><span style="font-size:11px;letter-spacing:.2em;text-transform:uppercase">The podcast</span><b>What We Build From Here</b><span>@whatwebuildfromhere &rarr;</span></div></div>
+<div><h5>Listen</h5><div class="pod"><span style="font-size:11px;letter-spacing:.2em;text-transform:uppercase">The podcast</span><b>What We Build From Here</b><span>@whatwebuildfromhere &rarr;</span></div>
+<div class="soc"><a href="https://podcasts.apple.com/us/podcast/what-we-build-from-here/id6823472020" target="_blank" rel="noopener noreferrer">Apple Podcasts</a><a href="https://open.spotify.com/show/08stsjcVU8fPYthofhdLjp" target="_blank" rel="noopener noreferrer">Spotify</a><a href="https://www.youtube.com/@WHATWEBUILDFROMHERE" target="_blank" rel="noopener noreferrer">YouTube</a><a href="https://www.instagram.com/whatwebuildfromhere" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://www.facebook.com/profile.php?id=61595543308341" target="_blank" rel="noopener noreferrer">Facebook</a></div></div>
 <div class="legal"><span>&copy; Writing Her Next Chapter</span><span>Made for women, with love</span></div></footer></body></html>
