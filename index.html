@@ -23,8 +23,12 @@
 section{padding:110px 56px} .lbl{display:flex;gap:18px;align-items:baseline;font-size:12px;letter-spacing:.3em;text-transform:uppercase;border-top:1px solid #1C1712;padding-top:16px;margin-bottom:56px} .lbl b{color:#B8893B}
 .story{display:grid;grid-template-columns:360px 1fr 300px;gap:64px}
 .story .pull{font-family:'Playfair Display',serif;font-style:italic;font-size:44px;line-height:1.1;color:#4B1E3F}
+.story .verse{margin:6px 0 22px;padding-top:16px;border-top:1px solid #B8893B}
+.story .verse p{font-family:'Playfair Display',serif;font-style:italic;font-size:32px;line-height:1.15;color:#4B1E3F;margin:0 0 10px}
+.story .verse cite{display:block;font-family:Manrope,sans-serif;font-style:normal;font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:700;color:#B8893B}
 .story .txt p{font-family:'Cormorant Garamond',serif;font-size:25px;line-height:1.5;margin-bottom:20px}
-.story .txt p:first-child::first-letter{font-family:'Playfair Display',serif;float:left;font-size:104px;line-height:.8;padding:8px 14px 0 0;color:#4B1E3F}
+.story .txt .verse p{font-family:'Playfair Display',serif;font-style:italic;font-size:32px;line-height:1.15;color:#4B1E3F;margin:0 0 10px}
+.story .txt > p:first-child::first-letter{font-family:'Playfair Display',serif;float:left;font-size:104px;line-height:.8;padding:8px 14px 0 0;color:#4B1E3F}
 .story .side{border-left:1px solid #1C1712;padding-left:32px;font-size:14px;line-height:1.7} .story .side h4{font-family:'Playfair Display',serif;font-size:22px;font-weight:500;margin-bottom:12px}
 .sig{font-family:'Playfair Display',serif;font-style:italic;font-size:30px;color:#B8893B;margin-top:10px}
 .shop{background:#EAE2D5}
@@ -125,8 +129,9 @@ footer h5{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#B8
   .lbl { margin-bottom: 32px; flex-wrap: wrap; }
   .story { grid-template-columns: 1fr; gap: 28px; }
   .story .pull { font-size: 32px; }
+  .story .txt .verse p { font-size: 26px; }
   .story .txt p { font-size: 22px; }
-  .story .txt p:first-child::first-letter { font-size: 72px; padding-right: 10px; }
+  .story .txt > p:first-child::first-letter { font-size: 72px; padding-right: 10px; }
   .story .side { border-left: none; padding-left: 0; border-top: 1px solid #1C1712; padding-top: 22px; }
   .shop { height: auto; }
   .shophead { flex-direction: column; align-items: flex-start; gap: 18px; margin-bottom: 32px; }
@@ -170,6 +175,7 @@ footer h5{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#B8
 <div class="lines"><div><b>Gather.</b>Small rooms, honest conversations, and women who get it.</div><div><b>Heal.</b>Space to put down what you&rsquo;ve been carrying.</div><div><b>Become.</b>Write what comes next on your own terms.</div></div></div></div>
 <section id="story"><div class="lbl">Her Story</div><div class="story"><div class="pull">&ldquo;I stopped waiting for permission to start over.&rdquo;</div>
 <div class="txt"><p>There was a season when I kept rereading the same page of my life, hoping it would end differently. It didn&rsquo;t change until I picked up the pen myself. That&rsquo;s where Writing Her Next Chapter began: with one woman deciding her story wasn&rsquo;t finished.</p>
+<blockquote class="verse"><p>&ldquo;I am fearfully and wonderfully made.&rdquo;</p><cite>Psalm 139:14</cite></blockquote>
 <p>This is a home for women who are healing, rebuilding, and becoming. Bring your whole self, your questions, and your hope. We&rsquo;ll turn the page together.</p><div class="sig">&mdash; Amanda</div></div>
 <div class="side"><h4>What this is</h4>A women-only community built for healing and growth. It starts with intimate gatherings and grows into a conference where every woman has a seat at the table.</div></div></section>
 <section id="together"><div class="lbl">Building Women Up</div>
