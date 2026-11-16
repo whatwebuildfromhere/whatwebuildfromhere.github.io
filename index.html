@@ -3,6 +3,8 @@
 .serif{font-family:'Playfair Display',serif}
 .top{display:flex;justify-content:space-between;align-items:center;padding:18px 56px;font-size:12px;letter-spacing:.22em;text-transform:uppercase;border-bottom:1px solid #1C1712}
 .top nav a{margin-left:34px;color:#1C1712;text-decoration:none}
+.top nav a.social{display:inline-flex;align-items:center;vertical-align:middle}
+.top nav a.social svg{width:14px;height:14px;display:block}
 .mast{text-align:center;padding:26px 0 18px;border-bottom:3px double #1C1712}
 .mast h1{font-family:'Playfair Display',serif;font-weight:700;font-size:104px;letter-spacing:-.02em;line-height:.9;color:#4B1E3F}
 .mast h1 i{color:#B8893B;font-weight:400}
@@ -21,13 +23,37 @@
 section{padding:110px 56px} .lbl{display:flex;gap:18px;align-items:baseline;font-size:12px;letter-spacing:.3em;text-transform:uppercase;border-top:1px solid #1C1712;padding-top:16px;margin-bottom:56px} .lbl b{color:#B8893B}
 .story{display:grid;grid-template-columns:360px 1fr 300px;gap:64px}
 .story .pull{font-family:'Playfair Display',serif;font-style:italic;font-size:44px;line-height:1.1;color:#4B1E3F}
+.story .verse{margin:6px 0 22px;padding-top:16px;border-top:1px solid #B8893B}
+.story .verse p{font-family:'Playfair Display',serif;font-style:italic;font-size:32px;line-height:1.15;color:#4B1E3F;margin:0 0 10px}
+.story .verse cite{display:block;font-family:Manrope,sans-serif;font-style:normal;font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:700;color:#B8893B}
 .story .txt p{font-family:'Cormorant Garamond',serif;font-size:25px;line-height:1.5;margin-bottom:20px}
-.story .txt p:first-child::first-letter{font-family:'Playfair Display',serif;float:left;font-size:104px;line-height:.8;padding:8px 14px 0 0;color:#4B1E3F}
+.story .txt .verse p{font-family:'Playfair Display',serif;font-style:italic;font-size:32px;line-height:1.15;color:#4B1E3F;margin:0 0 10px}
+.story .txt > p:first-child::first-letter{font-family:'Playfair Display',serif;float:left;font-size:104px;line-height:.8;padding:8px 14px 0 0;color:#4B1E3F}
 .story .side{border-left:1px solid #1C1712;padding-left:32px;font-size:14px;line-height:1.7} .story .side h4{font-family:'Playfair Display',serif;font-size:22px;font-weight:500;margin-bottom:12px}
 .sig{font-family:'Playfair Display',serif;font-style:italic;font-size:30px;color:#B8893B;margin-top:10px}
 .shop{background:#EAE2D5}
 .shophead{display:flex;justify-content:space-between;align-items:end;margin-bottom:56px}
 .shophead h3{font-family:'Playfair Display',serif;font-size:76px;font-weight:600;line-height:1;letter-spacing:-.02em} .shophead h3 i{color:#4B1E3F}
+#together h3{font-family:'Playfair Display',serif;font-weight:600;font-size:76px;line-height:.98;letter-spacing:-.02em;max-width:11em}
+#together h3 i{color:#4B1E3F;font-weight:400}
+#together p{font-family:'Cormorant Garamond',serif;font-size:26px;line-height:1.5;max-width:740px;margin:24px 0 36px}
+#support h3{font-family:'Playfair Display',serif;font-weight:600;font-size:76px;line-height:.98;letter-spacing:-.02em}
+#support h3 i{color:#4B1E3F;font-weight:400}
+#support > p{font-family:'Cormorant Garamond',serif;font-size:26px;line-height:1.5;max-width:740px;margin:24px 0 40px}
+.spot{display:grid;grid-template-columns:minmax(280px,440px) 1fr;gap:56px;align-items:center}
+.spotph{margin:0;border:1px solid #B8893B;padding:12px;background:#F3EEE6}
+.spotph img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 6%}
+.spot h4{font-family:'Playfair Display',serif;font-weight:600;font-size:52px;line-height:1.02;letter-spacing:-.02em;color:#4B1E3F;margin:12px 0 0}
+.spotline{font-family:'Playfair Display',serif;font-style:italic;font-weight:500;font-size:24px;line-height:1.35;color:#B8893B;margin:14px 0 0}
+.spotbody{font-family:'Cormorant Garamond',serif;font-size:24px;line-height:1.5;margin:20px 0 22px}
+.spotbody a{color:#4B1E3F}
+.spottags{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 28px}
+.spottags span{border:1px solid #B8893B;color:#4B1E3F;padding:8px 14px;font-family:Manrope,sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:700}
+.bizacts{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.spot .bizacts .btn{margin:0}
+#favor-forward h3{font-family:'Playfair Display',serif;font-weight:600;font-size:76px;line-height:.98;letter-spacing:-.02em}
+#favor-forward h3 i{color:#4B1E3F;font-weight:400}
+#favor-forward p{font-family:'Cormorant Garamond',serif;font-size:26px;line-height:1.5;max-width:740px;margin:24px 0 36px}
 .soon{border:1px solid #4B1E3F;color:#4B1E3F;padding:14px 22px;font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:700}
 .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
 .card{background:#F3EEE6;padding:28px 22px 22px;border:1px solid #1C171222}
@@ -61,7 +87,23 @@ footer h5{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#B8
 .inset span{font-size:8px!important;margin:2px 0 0!important;letter-spacing:.18em!important} .inset span,.backtag{display:block;font-family:Manrope;font-size:9px;letter-spacing:.22em;text-transform:uppercase;font-weight:700;color:#4B1E3F;text-align:center;margin-top:4px}
 .backtag{position:absolute;right:12px;top:12px;background:#F3EEE6;padding:5px 9px;margin:0}
 .artcard figcaption{font-size:22px}
-.shop{height:1038.3125px} /* keeps sub-pixel offset of later sections identical to v1 */
+.looks{display:flex;gap:8px;align-items:center;margin-top:12px}
+.looks button{width:36px;height:36px;padding:0;border-radius:50%;border:1px solid #B8893B;background:#F3EEE6;overflow:hidden;cursor:pointer;flex:none}
+.looks button[aria-pressed="true"]{border:2px solid #4B1E3F}
+.looks button:focus-visible{outline:2px solid #B8893B;outline-offset:2px}
+.looks button img{width:100%;height:100%;object-fit:cover;object-position:center 38%;display:block;pointer-events:none}
+.colors{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:14px}
+.colors span{font-size:10px;letter-spacing:.22em;text-transform:uppercase;font-weight:700;color:#B8893B;margin-right:2px}
+.colors button{width:26px;height:26px;padding:0;border-radius:50%;border:1px solid rgba(28,23,18,.45);cursor:pointer;flex:none}
+.colors button[aria-label="Cream"]{background:#F3EAD7}
+.colors button[aria-label="White"]{background:#FFFFFF}
+.colors button[aria-label="Black"]{background:#1A1A1A}
+.colors button[aria-label="Plum"]{background:#5B2A4E}
+.colors button[aria-pressed="true"]{box-shadow:0 0 0 2px #F3EEE6,0 0 0 4px #B8893B}
+.colors button:focus-visible{outline:2px solid #B8893B;outline-offset:3px}
+.shop{height:auto}
+.sayings-block{margin-top:72px}
+.sayings{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
 .podsec{background:#4B1E3F;color:#F3EEE6}
 .podsec .lbl{border-top-color:#B8893B;color:#F3EEE6;margin-bottom:22px}
 .podsec h3{font-family:'Playfair Display',serif;font-weight:600;font-size:84px;line-height:.92;letter-spacing:-.02em;color:#F3EEE6;margin-top:14px}
@@ -92,6 +134,9 @@ footer h5{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#B8
 .soc{margin-top:14px;display:flex;flex-direction:column;font-size:13px;line-height:1.7;letter-spacing:.04em}
 .soc a{color:#1C1712;text-decoration:none}
 .soc a:hover{color:#4B1E3F}
+@media (max-width: 1100px) {
+  .sayings { grid-template-columns: repeat(2, 1fr); }
+}
 @media (max-width: 780px) {
   body { width: 100%; }
   .top { flex-wrap: wrap; row-gap: 12px; padding: 16px 20px; }
@@ -110,13 +155,27 @@ footer h5{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#B8
   .lbl { margin-bottom: 32px; flex-wrap: wrap; }
   .story { grid-template-columns: 1fr; gap: 28px; }
   .story .pull { font-size: 32px; }
+  .story .txt .verse p { font-size: 26px; }
   .story .txt p { font-size: 22px; }
-  .story .txt p:first-child::first-letter { font-size: 72px; padding-right: 10px; }
+  .story .txt > p:first-child::first-letter { font-size: 72px; padding-right: 10px; }
   .story .side { border-left: none; padding-left: 0; border-top: 1px solid #1C1712; padding-top: 22px; }
   .shop { height: auto; }
   .shophead { flex-direction: column; align-items: flex-start; gap: 18px; margin-bottom: 32px; }
   .shophead h3 { font-size: 44px; }
+  #together h3 { font-size: 42px; max-width: none; }
+  #together p { font-size: 22px; }
+  #support h3 { font-size: 42px; }
+  #support > p { font-size: 22px; }
+  .spot { grid-template-columns: 1fr; gap: 28px; }
+  .spot h4 { font-size: 36px; }
+  .spotline { font-size: 22px; }
+  .spotbody { font-size: 22px; }
+  #favor-forward h3 { font-size: 42px; }
+  #favor-forward p { font-size: 22px; }
+  #favor-forward .btn { max-width: 100%; white-space: normal; text-align: center; line-height: 1.4; }
   .grid { grid-template-columns: 1fr; gap: 18px; }
+  .sayings { grid-template-columns: 1fr; gap: 18px; }
+  .sayings-block { margin-top: 48px; }
   .events { grid-template-columns: 1fr; }
   .ev { padding: 32px 22px; min-height: 0; }
   .ev + .ev { border-left: none; border-top: 1px solid #1C1712; }
@@ -142,7 +201,7 @@ footer h5{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#B8
   .legal { flex-direction: column; align-items: flex-start; gap: 8px; }
 }
 </style></head><body>
-<div class="top"><span>For women, by a woman</span><nav><a href="#story">Her Story</a><a href="#shirts">The Shirts</a><a href="#gatherings">Gatherings</a><a href="#podcast">Podcast</a><a href="#join">Join the Circle</a></nav></div>
+<div class="top"><span>For women, by a woman</span><nav><a href="#story">Her Story</a><a href="#shirts">The Shirts</a><a href="#gatherings">Gatherings</a><a href="#podcast">Podcast</a><a href="#join">Join the Circle</a><a href="#support">Support</a><a class="social" href="https://www.instagram.com/whatwebuildfromhere" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg></a><a class="social" href="https://www.facebook.com/profile.php?id=61595543308341" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M14.2 8.5V7c0-.8.4-1.2 1.3-1.2H17V3.2h-2.2C12.2 3.2 11 4.6 11 6.8v1.7H9v2.6h2V21h3.2v-9.9h2.2l.4-2.6h-2.6z"/></svg></a></nav></div>
 <header class="mast"><h1>Writing Her Next <i>Chapter</i></h1><div class="issue"><span>Volume One</span><span>Rooted in Black womanhood &middot; Open to every woman</span><span>The Beginning Issue</span></div></header>
 <div class="hero"><div class="ph"><img src="assets/amanda-blazer-raw.jpg"><div class="tag">Amanda Johnson, Founder</div></div>
 <div class="copy"><div><div class="kicker">The cover story</div><h2>Come home to yourself, <em>then keep going.</em></h2>
@@ -150,10 +209,22 @@ footer h5{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#B8
 <div class="lines"><div><b>Gather.</b>Small rooms, honest conversations, and women who get it.</div><div><b>Heal.</b>Space to put down what you&rsquo;ve been carrying.</div><div><b>Become.</b>Write what comes next on your own terms.</div></div></div></div>
 <section id="story"><div class="lbl">Her Story</div><div class="story"><div class="pull">&ldquo;I stopped waiting for permission to start over.&rdquo;</div>
 <div class="txt"><p>There was a season when I kept rereading the same page of my life, hoping it would end differently. It didn&rsquo;t change until I picked up the pen myself. That&rsquo;s where Writing Her Next Chapter began: with one woman deciding her story wasn&rsquo;t finished.</p>
+<blockquote class="verse"><p>&ldquo;I am fearfully and wonderfully made.&rdquo;</p><cite>Psalm 139:14</cite></blockquote>
 <p>This is a home for women who are healing, rebuilding, and becoming. Bring your whole self, your questions, and your hope. We&rsquo;ll turn the page together.</p><div class="sig">&mdash; Amanda</div></div>
 <div class="side"><h4>What this is</h4>A women-only community built for healing and growth. It starts with intimate gatherings and grows into a conference where every woman has a seat at the table.</div></div></section>
-<section class="shop" id="shirts"><div class="lbl">The Shirts</div><div class="shophead"><h3>Wear the <i>chapter</i><br>you&rsquo;re in.</h3><div class="soon">Coming soon to the shop</div></div><div class="grid art"><figure class="card artcard"><div class="artimg"><img src="assets/shirts/still-becoming-front.jpg" alt="Still Becoming shirt on plum"></div><figcaption><span>No. 01 &middot; Front print</span>Still Becoming</figcaption></figure><figure class="card artcard"><div class="artimg"><img src="assets/shirts/her-next-chapter-front.jpg" alt="Her Next Chapter shirt on plum"></div><figcaption><span>No. 02 &middot; Front print</span>Her Next Chapter</figcaption></figure><figure class="card artcard"><div class="artimg"><img src="assets/shirts/turning-the-page-front.jpg" alt="Turning the Page shirt on plum"></div><figcaption><span>No. 03 &middot; Front print</span>Turning the Page</figcaption></figure><figure class="card artcard"><div class="artimg"><img src="assets/shirts/shes-writing-it-now-back.jpg" alt="She&rsquo;s Writing It Now shirt on plum"><span class="backtag">Back</span></div><figcaption class="withinset"><div><span>No. 04 &middot; Chest logo + back</span>She&rsquo;s Writing It Now</div><div class="inset"><img src="assets/shirts/chest-patch-front.jpg" alt="Front chest patch"><span>Front</span></div></figcaption></figure></div>
-<p class="note">Given away first at our gatherings. Coming soon to the shop for everyone else.</p></section>
+<section id="together"><div class="lbl">Building Women Up</div>
+<h3>We rise by <i>lifting each other.</i></h3>
+<p>Writing Her Next Chapter is about more than one woman&rsquo;s story. It&rsquo;s about building real relationships. The kind where women show up for each other, open doors, and grow together. Bring a friend, bring your sister, bring the woman who needs it most. There&rsquo;s room for all of us here.</p>
+<a class="btn" href="https://forms.gle/8RbCf1ChRLpUWy9p9" target="_blank" rel="noopener noreferrer">Join the Circle</a>
+</section>
+<section id="support"><div class="lbl">Women We Support</div>
+<h3>Shop her <i>dream.</i></h3>
+<p>When one of us builds something, we all show up. These are businesses run by women in our circle.</p>
+<article class="spot"><figure class="spotph"><img src="assets/support/brandi-barnes-2.jpg" alt="Ms. Brandi Barnes, a woman in a green dress seated on stone steps among lavender"></figure><div class="spotcopy"><div class="kicker">Spotlight</div><h4>Ms. Brandi Barnes</h4><p class="spotline">Veteran. Mom. Founder of Favor Forward. Owner of Designs by BCE.</p><p class="spotbody">Brandi served her country, and now she pours that same heart into her family and her business. She is also the founder of <a href="https://www.favorforwardfoundation.org/" target="_blank" rel="noopener noreferrer">Favor Forward Foundation</a>, turning compassion into practical action. Through <a href="https://www.designsbybce.com/" target="_blank" rel="noopener noreferrer">Designs by BCE</a>, she offers event services, custom gifts, and party favors, and all that comes with them, to make life&rsquo;s big moments unforgettable, from baby showers and gender reveals to graduations and beyond.</p><div class="spottags"><span>Event Services</span><span>Custom Gifts</span><span>Party Favors</span></div><div class="bizacts"><a class="btn" href="https://www.designsbybce.com/" target="_blank" rel="noopener noreferrer">Visit Her Website</a><a class="btn o" href="https://www.etsy.com/shop/GiftsOfFavor" target="_blank" rel="noopener noreferrer">Shop her Etsy</a><a class="btn o" href="https://www.instagram.com/bcedesigns/" target="_blank" rel="noopener noreferrer">Follow on Instagram</a></div></div></article>
+</section>
+<section class="shop" id="shirts"><div class="lbl">The Shirts</div><div class="shophead"><h3>Wear the <i>chapter</i><br>you&rsquo;re in.</h3><div class="soon">Coming soon to the shop</div></div><div class="grid art"><figure class="card artcard"><div class="artimg"><img src="assets/shirts/still-becoming-front.jpg" alt="Still Becoming shirt on plum"></div><div class="looks" role="group" aria-label="Still Becoming looks"><button type="button" aria-pressed="true" aria-label="Look 1" data-src="assets/shirts/still-becoming-front.jpg" data-alt="Still Becoming shirt on plum"><img src="assets/shirts/still-becoming-front.jpg" alt=""></button><button type="button" aria-pressed="false" aria-label="Look 2" data-src="assets/shirts/still-becoming-white.jpg" data-alt="Still Becoming shirt on a white woman"><img src="assets/shirts/still-becoming-white.jpg" alt="" loading="lazy"></button><button type="button" aria-pressed="false" aria-label="Look 3" data-src="assets/shirts/still-becoming-latina.jpg" data-alt="Still Becoming shirt on a Latina woman"><img src="assets/shirts/still-becoming-latina.jpg" alt="" loading="lazy"></button></div><figcaption><span>No. 01 &middot; Front print</span>Still Becoming</figcaption><div class="colors" role="group" aria-label="Still Becoming color"><span>Color</span><button type="button" aria-pressed="false" aria-label="Cream" title="Cream" data-src="assets/shirts/colors/still-becoming-cream.jpg" data-alt="Still Becoming shirt in cream"></button><button type="button" aria-pressed="false" aria-label="White" title="White" data-src="assets/shirts/colors/still-becoming-white.jpg" data-alt="Still Becoming shirt in white"></button><button type="button" aria-pressed="false" aria-label="Black" title="Black" data-src="assets/shirts/colors/still-becoming-black.jpg" data-alt="Still Becoming shirt in black"></button><button type="button" aria-pressed="true" aria-label="Plum" title="Plum" data-src="assets/shirts/colors/still-becoming-plum.jpg" data-alt="Still Becoming shirt in plum"></button></div></figure><figure class="card artcard"><div class="artimg"><img src="assets/shirts/her-next-chapter-front.jpg" alt="Her Next Chapter shirt on plum"></div><div class="looks" role="group" aria-label="Her Next Chapter looks"><button type="button" aria-pressed="true" aria-label="Look 1" data-src="assets/shirts/her-next-chapter-front.jpg" data-alt="Her Next Chapter shirt on plum"><img src="assets/shirts/her-next-chapter-front.jpg" alt=""></button><button type="button" aria-pressed="false" aria-label="Look 2" data-src="assets/shirts/her-next-chapter-white.jpg" data-alt="Her Next Chapter shirt on a white woman"><img src="assets/shirts/her-next-chapter-white.jpg" alt="" loading="lazy"></button><button type="button" aria-pressed="false" aria-label="Look 3" data-src="assets/shirts/her-next-chapter-latina.jpg" data-alt="Her Next Chapter shirt on a Latina woman"><img src="assets/shirts/her-next-chapter-latina.jpg" alt="" loading="lazy"></button></div><figcaption><span>No. 02 &middot; Front print</span>Her Next Chapter</figcaption><div class="colors" role="group" aria-label="Her Next Chapter color"><span>Color</span><button type="button" aria-pressed="false" aria-label="Cream" title="Cream" data-src="assets/shirts/colors/her-next-chapter-cream.jpg" data-alt="Her Next Chapter shirt in cream"></button><button type="button" aria-pressed="false" aria-label="White" title="White" data-src="assets/shirts/colors/her-next-chapter-white.jpg" data-alt="Her Next Chapter shirt in white"></button><button type="button" aria-pressed="false" aria-label="Black" title="Black" data-src="assets/shirts/colors/her-next-chapter-black.jpg" data-alt="Her Next Chapter shirt in black"></button><button type="button" aria-pressed="true" aria-label="Plum" title="Plum" data-src="assets/shirts/colors/her-next-chapter-plum.jpg" data-alt="Her Next Chapter shirt in plum"></button></div></figure><figure class="card artcard"><div class="artimg"><img src="assets/shirts/turning-the-page-front.jpg" alt="Turning the Page shirt on plum"></div><div class="looks" role="group" aria-label="Turning the Page looks"><button type="button" aria-pressed="true" aria-label="Look 1" data-src="assets/shirts/turning-the-page-front.jpg" data-alt="Turning the Page shirt on plum"><img src="assets/shirts/turning-the-page-front.jpg" alt=""></button><button type="button" aria-pressed="false" aria-label="Look 2" data-src="assets/shirts/turning-the-page-white.jpg" data-alt="Turning the Page shirt on a white woman"><img src="assets/shirts/turning-the-page-white.jpg" alt="" loading="lazy"></button><button type="button" aria-pressed="false" aria-label="Look 3" data-src="assets/shirts/turning-the-page-latina.jpg" data-alt="Turning the Page shirt on a Latina woman"><img src="assets/shirts/turning-the-page-latina.jpg" alt="" loading="lazy"></button></div><figcaption><span>No. 03 &middot; Front print</span>Turning the Page</figcaption><div class="colors" role="group" aria-label="Turning the Page color"><span>Color</span><button type="button" aria-pressed="false" aria-label="Cream" title="Cream" data-src="assets/shirts/colors/turning-the-page-cream.jpg" data-alt="Turning the Page shirt in cream"></button><button type="button" aria-pressed="false" aria-label="White" title="White" data-src="assets/shirts/colors/turning-the-page-white.jpg" data-alt="Turning the Page shirt in white"></button><button type="button" aria-pressed="false" aria-label="Black" title="Black" data-src="assets/shirts/colors/turning-the-page-black.jpg" data-alt="Turning the Page shirt in black"></button><button type="button" aria-pressed="true" aria-label="Plum" title="Plum" data-src="assets/shirts/colors/turning-the-page-plum.jpg" data-alt="Turning the Page shirt in plum"></button></div></figure><figure class="card artcard"><div class="artimg"><img src="assets/shirts/shes-writing-it-now-back.jpg" alt="She&rsquo;s Writing It Now shirt on plum"><span class="backtag">Back</span></div><figcaption class="withinset"><div><span>No. 04 &middot; Chest logo + back</span>She&rsquo;s Writing It Now</div><div class="inset"><img src="assets/shirts/chest-patch-front.jpg" alt="Front chest patch"><span>Front</span></div></figcaption><div class="looks" role="group" aria-label="She&rsquo;s Writing It Now looks"><button type="button" aria-pressed="true" aria-label="Look 1" data-src="assets/shirts/shes-writing-it-now-back.jpg" data-alt="She&rsquo;s Writing It Now shirt on plum"><img src="assets/shirts/shes-writing-it-now-back.jpg" alt=""></button><button type="button" aria-pressed="false" aria-label="Look 2" data-src="assets/shirts/shes-writing-it-now-white.jpg" data-alt="She&rsquo;s Writing It Now shirt on a white woman"><img src="assets/shirts/shes-writing-it-now-white.jpg" alt="" loading="lazy"></button><button type="button" aria-pressed="false" aria-label="Look 3" data-src="assets/shirts/shes-writing-it-now-latina.jpg" data-alt="She&rsquo;s Writing It Now shirt on a Latina woman"><img src="assets/shirts/shes-writing-it-now-latina.jpg" alt="" loading="lazy"></button></div><div class="colors" role="group" aria-label="She&rsquo;s Writing It Now color"><span>Color</span><button type="button" aria-pressed="false" aria-label="Cream" title="Cream" data-src="assets/shirts/colors/shes-writing-it-now-cream.jpg" data-alt="She&rsquo;s Writing It Now shirt in cream"></button><button type="button" aria-pressed="false" aria-label="White" title="White" data-src="assets/shirts/colors/shes-writing-it-now-white.jpg" data-alt="She&rsquo;s Writing It Now shirt in white"></button><button type="button" aria-pressed="false" aria-label="Black" title="Black" data-src="assets/shirts/colors/shes-writing-it-now-black.jpg" data-alt="She&rsquo;s Writing It Now shirt in black"></button><button type="button" aria-pressed="true" aria-label="Plum" title="Plum" data-src="assets/shirts/colors/shes-writing-it-now-plum.jpg" data-alt="She&rsquo;s Writing It Now shirt in plum"></button></div></figure></div>
+<div class="sayings-block"><div class="lbl">New sayings</div><div class="sayings"><figure class="card artcard"><div class="artimg"><img src="assets/shirts/sayings/ink-still-wet.jpg" alt="Ink Still Wet shirt" loading="lazy"></div><figcaption>Ink Still Wet</figcaption><div class="colors" role="group" aria-label="Ink Still Wet color"><span>Color</span><button type="button" aria-pressed="true" aria-label="Cream" title="Cream" data-src="assets/shirts/colors/ink-still-wet-cream.jpg" data-alt="Ink Still Wet shirt in cream"></button><button type="button" aria-pressed="false" aria-label="White" title="White" data-src="assets/shirts/colors/ink-still-wet-white.jpg" data-alt="Ink Still Wet shirt in white"></button><button type="button" aria-pressed="false" aria-label="Black" title="Black" data-src="assets/shirts/colors/ink-still-wet-black.jpg" data-alt="Ink Still Wet shirt in black"></button><button type="button" aria-pressed="false" aria-label="Plum" title="Plum" data-src="assets/shirts/colors/ink-still-wet-plum.jpg" data-alt="Ink Still Wet shirt in plum"></button></div></figure><figure class="card artcard"><div class="artimg"><img src="assets/shirts/sayings/hold-her-hand.jpg" alt="Healed Enough to Hold Her Hand shirt" loading="lazy"></div><figcaption>Healed Enough to Hold Her Hand</figcaption><div class="colors" role="group" aria-label="Healed Enough to Hold Her Hand color"><span>Color</span><button type="button" aria-pressed="false" aria-label="Cream" title="Cream" data-src="assets/shirts/colors/hold-her-hand-cream.jpg" data-alt="Healed Enough to Hold Her Hand shirt in cream"></button><button type="button" aria-pressed="false" aria-label="White" title="White" data-src="assets/shirts/colors/hold-her-hand-white.jpg" data-alt="Healed Enough to Hold Her Hand shirt in white"></button><button type="button" aria-pressed="false" aria-label="Black" title="Black" data-src="assets/shirts/colors/hold-her-hand-black.jpg" data-alt="Healed Enough to Hold Her Hand shirt in black"></button><button type="button" aria-pressed="false" aria-label="Plum" title="Plum" data-src="assets/shirts/colors/hold-her-hand-plum.jpg" data-alt="Healed Enough to Hold Her Hand shirt in plum"></button></div></figure><figure class="card artcard"><div class="artimg"><img src="assets/shirts/sayings/chapter-one.jpg" alt="God Wasn&rsquo;t Done With Chapter One shirt" loading="lazy"></div><figcaption>God Wasn&rsquo;t Done With Chapter One</figcaption><div class="colors" role="group" aria-label="God Wasn&rsquo;t Done With Chapter One color"><span>Color</span><button type="button" aria-pressed="false" aria-label="Cream" title="Cream" data-src="assets/shirts/colors/chapter-one-cream.jpg" data-alt="God Wasn&rsquo;t Done With Chapter One shirt in cream"></button><button type="button" aria-pressed="false" aria-label="White" title="White" data-src="assets/shirts/colors/chapter-one-white.jpg" data-alt="God Wasn&rsquo;t Done With Chapter One shirt in white"></button><button type="button" aria-pressed="false" aria-label="Black" title="Black" data-src="assets/shirts/colors/chapter-one-black.jpg" data-alt="God Wasn&rsquo;t Done With Chapter One shirt in black"></button><button type="button" aria-pressed="false" aria-label="Plum" title="Plum" data-src="assets/shirts/colors/chapter-one-plum.jpg" data-alt="God Wasn&rsquo;t Done With Chapter One shirt in plum"></button></div></figure><figure class="card artcard"><div class="artimg"><img src="assets/shirts/sayings/prayed-up.jpg" alt="Prayed Up &amp; Plotting shirt" loading="lazy"></div><figcaption>Prayed Up &amp; Plotting</figcaption><div class="colors" role="group" aria-label="Prayed Up &amp; Plotting color"><span>Color</span><button type="button" aria-pressed="false" aria-label="Cream" title="Cream" data-src="assets/shirts/colors/prayed-up-cream.jpg" data-alt="Prayed Up &amp; Plotting shirt in cream"></button><button type="button" aria-pressed="false" aria-label="White" title="White" data-src="assets/shirts/colors/prayed-up-white.jpg" data-alt="Prayed Up &amp; Plotting shirt in white"></button><button type="button" aria-pressed="false" aria-label="Black" title="Black" data-src="assets/shirts/colors/prayed-up-black.jpg" data-alt="Prayed Up &amp; Plotting shirt in black"></button><button type="button" aria-pressed="false" aria-label="Plum" title="Plum" data-src="assets/shirts/colors/prayed-up-plum.jpg" data-alt="Prayed Up &amp; Plotting shirt in plum"></button></div></figure><figure class="card artcard"><div class="artimg"><img src="assets/shirts/sayings/pressed-not-crushed.jpg" alt="Pressed, Not Crushed shirt" loading="lazy"></div><figcaption>Pressed, Not Crushed</figcaption><div class="colors" role="group" aria-label="Pressed, Not Crushed color"><span>Color</span><button type="button" aria-pressed="false" aria-label="Cream" title="Cream" data-src="assets/shirts/colors/pressed-not-crushed-cream.jpg" data-alt="Pressed, Not Crushed shirt in cream"></button><button type="button" aria-pressed="false" aria-label="White" title="White" data-src="assets/shirts/colors/pressed-not-crushed-white.jpg" data-alt="Pressed, Not Crushed shirt in white"></button><button type="button" aria-pressed="true" aria-label="Black" title="Black" data-src="assets/shirts/colors/pressed-not-crushed-black.jpg" data-alt="Pressed, Not Crushed shirt in black"></button><button type="button" aria-pressed="false" aria-label="Plum" title="Plum" data-src="assets/shirts/colors/pressed-not-crushed-plum.jpg" data-alt="Pressed, Not Crushed shirt in plum"></button></div></figure><figure class="card artcard"><div class="artimg"><img src="assets/shirts/sayings/saved-me-a-seat.jpg?v=3" alt="Cream tee with a pop art print of three women laughing arm in arm and Ecclesiastes 4:10" loading="lazy"></div><figcaption>She Saved Me a Seat</figcaption><div class="colors" role="group" aria-label="She Saved Me a Seat color"><span>Color</span><button type="button" aria-pressed="true" aria-label="Cream" title="Cream" data-src="assets/shirts/colors/saved-me-a-seat-cream.jpg" data-alt="She Saved Me a Seat shirt in cream"></button><button type="button" aria-pressed="false" aria-label="White" title="White" data-src="assets/shirts/colors/saved-me-a-seat-white.jpg" data-alt="She Saved Me a Seat shirt in white"></button><button type="button" aria-pressed="false" aria-label="Black" title="Black" data-src="assets/shirts/colors/saved-me-a-seat-black.jpg" data-alt="She Saved Me a Seat shirt in black"></button><button type="button" aria-pressed="false" aria-label="Plum" title="Plum" data-src="assets/shirts/colors/saved-me-a-seat-plum.jpg" data-alt="She Saved Me a Seat shirt in plum"></button></div></figure></div></div>
+<p class="note">Coming soon</p></section>
 <section class="podsec" id="podcast"><div class="lbl">Podcast</div>
 <div class="kicker">On Air</div>
 <h3>What We Build From <i>Here</i></h3>
@@ -181,16 +252,21 @@ footer h5{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#B8
 </div></figure>
 </div></section>
 <section id="gatherings"><div class="lbl">Gatherings</div><div class="events">
-<div class="ev"><div><div class="k">Invite-only &middot; Small circle</div><h4>The Girls&rsquo; Sleepover</h4><p>An intimate pajama night for a hand-picked group of women. We&rsquo;ll journal, build vision boards, write letters to our future selves, and share a guided healing conversation.</p></div><a class="btn" href="https://forms.gle/8RbCf1ChRLpUWy9p9" target="_blank" rel="noopener noreferrer">Request an invitation</a></div>
+<div class="ev"><div><div class="k">Coming soon &middot; Invite-only</div><h4>The Girls&rsquo; Pajama Sleepover</h4><p>An intimate pajama night for a hand-picked group of women. We&rsquo;ll journal, build vision boards, write letters to our future selves, and share a guided healing conversation.</p></div><a class="btn" href="https://forms.gle/8RbCf1ChRLpUWy9p9" target="_blank" rel="noopener noreferrer">Request an invitation</a></div>
 <div class="ev"><div><div class="k">Coming soon</div><h4>Her Next Chapter Conference</h4><p>The sleepover grows up. A full gathering of women ready to heal out loud, dream bigger, and leave with a plan for what comes next. Details soon.</p></div><a class="btn" href="https://forms.gle/8RbCf1ChRLpUWy9p9" target="_blank" rel="noopener noreferrer">Get first word</a></div></div></section>
 <section id="travel"><div class="lbl">Plan your next trip</div>
 <h3>Pack a bag.<br>Plan your <i>next chapter.</i></h3>
 <p>Your next chapter might start somewhere new. Rest, a reset, a dream trip you keep putting off &mdash; let&rsquo;s plan it. Details coming soon.</p>
 <a class="btn" href="#" data-placeholder="travel-partner-link">Plan your next trip</a>
 </section>
+<section id="favor-forward"><div class="lbl">Our Foundation</div>
+<h3>Paying it <i>forward.</i></h3>
+<p>Writing Her Next Chapter is part of the Favor Forward Foundation, which turns compassion into practical action. It helps women and families remove the barriers standing between them and their next step, through direct support, resources, and community.</p>
+<a class="btn" href="https://www.favorforwardfoundation.org/" target="_blank" rel="noopener noreferrer">Visit Favor Forward Foundation</a>
+</section>
 <div class="circle" id="join"><div class="pat"></div><h3>Join the <i>circle.</i></h3><p>Letters, first looks at the shirts, and the first invitations to what we&rsquo;re building, straight to your inbox.</p><a class="form" href="https://forms.gle/8RbCf1ChRLpUWy9p9" target="_blank" rel="noopener noreferrer"><span>Your email address</span><b>Count me in</b></a></div>
 <footer><div><div class="logo">Her Next<br>Chapter</div><p style="margin-top:14px">A women-only community for healing, growth, and new beginnings.</p></div>
-<div><h5>Explore</h5><a href="#story">Her Story</a><br><a href="#shirts">The Shirts</a><br><a href="#gatherings">Gatherings</a><br><a href="#join">Join the Circle</a></div><div><h5>Connect</h5><a href="https://www.instagram.com/whatwebuildfromhere" target="_blank" rel="noopener noreferrer">Instagram</a><br><a href="https://forms.gle/8RbCf1ChRLpUWy9p9" target="_blank" rel="noopener noreferrer">Contact</a><br>Partnerships</div>
+<div><h5>Explore</h5><a href="#story">Her Story</a><br><a href="#shirts">The Shirts</a><br><a href="#gatherings">Gatherings</a><br><a href="#join">Join the Circle</a></div><div><h5>Connect</h5><a href="https://www.instagram.com/whatwebuildfromhere" target="_blank" rel="noopener noreferrer">Instagram</a><br><a href="https://forms.gle/8RbCf1ChRLpUWy9p9" target="_blank" rel="noopener noreferrer">Contact</a><br><a href="https://www.favorforwardfoundation.org/" target="_blank" rel="noopener noreferrer">Favor Forward Foundation</a><br>Partnerships</div>
 <div><h5>Listen</h5><div class="pod"><span style="font-size:11px;letter-spacing:.2em;text-transform:uppercase">The podcast</span><b>What We Build From Here</b><a href="#podcast">@whatwebuildfromhere &rarr;</a></div>
 <div class="soc"><a href="https://podcasts.apple.com/us/podcast/what-we-build-from-here/id6823472020" target="_blank" rel="noopener noreferrer">Apple Podcasts</a><a href="https://open.spotify.com/show/08stsjcVU8fPYthofhdLjp" target="_blank" rel="noopener noreferrer">Spotify</a><a href="https://www.youtube.com/@WHATWEBUILDFROMHERE" target="_blank" rel="noopener noreferrer">YouTube</a><a href="https://www.instagram.com/whatwebuildfromhere" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://www.facebook.com/profile.php?id=61595543308341" target="_blank" rel="noopener noreferrer">Facebook</a></div></div>
 <div class="legal"><span>&copy; Writing Her Next Chapter</span><span>Made for women, with love</span></div></footer>
@@ -241,5 +317,38 @@ footer h5{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#B8
     });
   }).catch(function () {});
 })();
+</script>
+<script>
+document.querySelectorAll(".artcard").forEach(function (card) {
+  var main = card.querySelector(".artimg > img");
+  var looks = card.querySelector(".looks");
+  var colors = card.querySelector(".colors");
+  function press(row, button) {
+    if (!row) return;
+    row.querySelectorAll("button").forEach(function (item) {
+      item.setAttribute("aria-pressed", item === button ? "true" : "false");
+    });
+  }
+  if (colors) {
+    colors.addEventListener("click", function (event) {
+      var button = event.target.closest("button");
+      if (!button || !colors.contains(button)) return;
+      main.src = button.getAttribute("data-src");
+      main.alt = button.getAttribute("data-alt");
+      press(colors, button);
+      press(looks, null);
+    });
+  }
+  if (looks) {
+    looks.addEventListener("click", function (event) {
+      var button = event.target.closest("button");
+      if (!button || !looks.contains(button)) return;
+      main.src = button.getAttribute("data-src");
+      main.alt = button.getAttribute("data-alt");
+      press(looks, button);
+      press(colors, null);
+    });
+  }
+});
 </script>
 </body></html>
